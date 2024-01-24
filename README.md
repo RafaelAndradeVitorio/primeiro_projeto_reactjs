@@ -1,3 +1,5 @@
+Projeto com React JS criado na jornada Frontend na Samsung Ocean em Janeiro de 2024
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
