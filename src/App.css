@@ -14,16 +14,37 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   color: #fff;
-  padding: 10px 20px;
+  padding: 0 10px;
+  cursor: pointer;
+  text-align: center;
 }
-.card h1{
- font-size: 18px;
+.card h2{
+ font-size: 28px;
+ border-left: 4px solid #a9d3e9;
+ text-align: center;
 }
 
 .card img{
   width: 70%;
   padding: 10px;
   border-radius: 30px;
+  align-self: center;
+}
+
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-self: center;
+}
+
+.tag{
+  background: #fff;
+  color: #131313;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
 }
