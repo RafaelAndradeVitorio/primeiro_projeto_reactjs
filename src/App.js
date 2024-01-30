@@ -24,13 +24,15 @@ function App() {
     species:"Human",
     origin:{"name":'Earth (Replacement Dimension)'}
   }
+
+  const itens=[item1, item2, item3]
   return (
 <>
 <div className='cards'>
-
-<Card item={item1}/>
+{/* <Card item={item1}/>
 <Card item={item2}/>
-<Card item={item3}/>
+<Card item={item3}/> */}
+{itens.map(item => <Card item={item}/> )}
 </div>
 </>
   );
