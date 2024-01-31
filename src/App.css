@@ -26,6 +26,7 @@
   padding: 0 10px;
   cursor: pointer;
   text-align: center;
+  max-width: 300px;
 }
 .card h2{
  font-size: 28px;
@@ -34,7 +35,6 @@
 }
 
 .card img{
-  width: 70%;
   padding: 10px;
   border-radius: 30px;
   align-self: center;
@@ -45,7 +45,8 @@
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
-  max-width: 50%;
+  max-width: 80%;
+  align-self: center;
 }
 
 .tag{
